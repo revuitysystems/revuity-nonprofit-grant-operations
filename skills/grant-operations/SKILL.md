@@ -1,6 +1,6 @@
 ---
 name: grant-operations
-description: Use this skill to run nonprofit grant operations across opportunity intake, qualification, application planning, evidence collection, narrative and budget coordination, submission readiness, award setup, implementation tracking, reporting, amendments, renewal, closeout, portfolio review, and leadership decision support.
+description: This skill should be used to run nonprofit grant operations across opportunity intake, qualification, application planning, evidence collection, narrative and budget coordination, submission readiness, award setup, implementation tracking, reporting, amendments, renewal, closeout, portfolio review, and leadership decision support.
 ---
 
 # Grant Operations
@@ -26,7 +26,7 @@ The objective is to make grant work visible, owned, evidence-backed, reviewable,
 
 ## Start by identifying the operating context
 
-Before doing substantial work, determine what is available and what is missing:
+Determine what is available and what is missing:
 
 - organization and program
 - funder and opportunity
@@ -73,13 +73,13 @@ Recommended stages:
 
 `watching | triage | qualifying | approved to pursue | application in progress | internal review | ready to submit | submitted | pending decision | awarded | declined | withdrawn | closed`
 
-Do not turn missing information into a negative score. Missing information is a verification task.
+Missing information is a verification task, not a negative score.
 
 # 2. Qualification and go/no-go decision support
 
-For a single opportunity, produce a `Grant Qualification Brief`.
+For a single opportunity, produce a `Grant Qualification Brief` using only sourced evidence.
 
-Assess only against sourced evidence:
+Assess:
 
 - eligibility
 - mission and program fit
@@ -97,8 +97,6 @@ Assess only against sourced evidence:
 - internal effort and timing
 
 Output:
-
-## Grant Qualification Brief
 
 - Opportunity
 - Funder
@@ -144,25 +142,11 @@ Do not invent dates when the external deadline is unknown. Use relative sequenci
 
 Translate a funding notice or application package into a controlled requirements matrix.
 
-Use columns:
+Use:
 
 `requirement | source citation/location | interpretation | evidence needed | owner | status | gap | due date | reviewer | approval gate`
 
-Capture:
-
-- eligibility documentation
-- registration requirements
-- narrative sections
-- budgets and budget narratives
-- attachments
-- letters / MOUs
-- organizational documents
-- data / evaluation requirements
-- certifications and representations
-- signatures
-- portal fields
-- formatting / page limits
-- submission rules
+Capture eligibility documentation, registration requirements, narrative sections, budgets, attachments, partner letters, organizational documents, data requirements, certifications, signatures, portal fields, formatting limits, and submission rules.
 
 Distinguish:
 
@@ -211,14 +195,7 @@ For each section:
 5. mark placeholders clearly
 6. cross-check numbers, dates, names, populations, outcomes, and commitments against source material
 
-Useful outputs:
-
-- narrative outline
-- first draft
-- evidence-to-claim map
-- reviewer comment matrix
-- red-team review against funder criteria
-- final consistency check
+Useful outputs include narrative outlines, first drafts, evidence-to-claim maps, reviewer comment matrices, red-team reviews against funder criteria, and final consistency checks.
 
 Never fabricate urgency, outcomes, beneficiary stories, community needs, partner commitments, or evaluation results.
 
@@ -235,10 +212,10 @@ Check for:
 - indirect costs treated inconsistently
 - program quantities that do not reconcile
 - timeline / staffing mismatches
-- restricted or questionable cost categories that require source verification
+- cost categories that require source verification
 - math errors
 
-Output a `Budget Consistency Review` with:
+Output:
 
 `issue | source A | source B | impact | owner | required decision`
 
@@ -248,21 +225,7 @@ Do not silently alter approved financial assumptions.
 
 Before submission, create a `Submission Readiness Gate`.
 
-Check:
-
-- eligibility evidence
-- all required narrative sections
-- budget / narrative consistency
-- attachments
-- representations and certifications
-- required signatures / authorizations
-- registration / portal prerequisites
-- file naming and formatting
-- page or character limits
-- submission deadline and time zone
-- designated submitter
-- internal approval complete
-- final package archived
+Check eligibility evidence, required narratives, budget consistency, attachments, certifications, signatures, registration / portal prerequisites, file naming, formatting, page limits, deadline / time zone, designated submitter, internal approval, and final-package archive.
 
 Use statuses:
 
@@ -270,20 +233,13 @@ Use statuses:
 
 Submission itself requires explicit human authorization.
 
-After submission, capture:
-
-- submitted date/time
-- submitter
-- confirmation / tracking reference if supplied
-- final submitted package location
-- next expected milestone
-- funder follow-up owner
+After submission, capture submitted date/time, submitter, confirmation reference if supplied, final package location, next expected milestone, and funder follow-up owner.
 
 # 9. Award review and acceptance
 
-When an award arrives, do not treat the original proposal as the governing document. Review the actual award notice / agreement.
+When an award arrives, review the actual award notice / agreement rather than treating the original proposal as the governing document.
 
-Create an `Award Acceptance Brief`:
+Create an `Award Acceptance Brief` covering:
 
 - award amount
 - period of performance
@@ -292,7 +248,7 @@ Create an `Award Acceptance Brief`:
 - reporting requirements
 - payment / reimbursement structure if stated
 - budget restrictions
-- match / cost share obligations
+- match / cost-share obligations
 - data / performance requirements
 - procurement / subaward conditions if stated
 - communications / acknowledgement requirements if stated
@@ -309,9 +265,7 @@ Acceptance, signature, drawdown, or other action that legally binds the organiza
 
 After acceptance, turn award terms into an operating plan.
 
-Create:
-
-## Award Kickoff Pack
+Create an `Award Kickoff Pack` with:
 
 - award summary
 - outcomes / deliverables
@@ -327,15 +281,13 @@ Create:
 - risk register
 - closeout preparation items
 
-## Obligations Register
-
-Use:
+Use an `Obligations Register`:
 
 `obligation | source | owner | frequency/date | evidence required | reviewer | status | escalation trigger`
 
 # 11. Delivery and performance monitoring
 
-Track whether the funded work is being delivered as promised without claiming compliance that has not been verified.
+Track whether funded work is being delivered as promised without claiming compliance that has not been verified.
 
 Monitor, when sourced:
 
@@ -345,25 +297,20 @@ Monitor, when sourced:
 - outcomes / performance measures
 - participation or service counts
 - budget-to-actual information
-- match / cost share tracking
+- match / cost-share tracking
 - partner deliverables
 - procurement / subaward obligations
 - staffing changes
 - evidence gaps
 - risks and exceptions
 
-Separate:
-
-- operational status
-- performance evidence
-- financial status
-- compliance questions
+Separate operational status, performance evidence, financial status, and compliance questions.
 
 If the evidence does not support a required claim, state that plainly.
 
 # 12. Reporting workbench
 
-For each required report, create a reporting workbench well before the deadline.
+For each required report, create a reporting workbench before the deadline.
 
 Track:
 
@@ -385,18 +332,7 @@ Never certify compliance or performance without authoritative evidence and human
 
 Draft, but do not send, material funder communications unless the user has appropriate authority and explicitly requests the send through an enabled tool.
 
-Useful drafts:
-
-- clarification questions
-- missing-information responses
-- progress updates
-- meeting agendas
-- follow-up notes
-- amendment requests
-- extension requests
-- budget revision explanations
-- closeout correspondence
-- renewal conversations
+Useful drafts include clarification questions, missing-information responses, progress updates, meeting agendas, follow-up notes, amendment requests, extension requests, budget revision explanations, closeout correspondence, and renewal conversations.
 
 Separate factual update, requested action, and unresolved issue.
 
@@ -425,19 +361,7 @@ Do not decide that an amendment is unnecessary when the award terms are unclear.
 
 Start renewal preparation from actual award performance and current funder guidance, not from the prior application alone.
 
-Create a `Renewal Readiness Brief`:
-
-- current award status
-- performance evidence available
-- budget status
-- reporting status
-- funder relationship / feedback facts
-- continuation or renewal requirements
-- changes in program design
-- evidence gaps
-- updated organizational facts needed
-- decision timeline
-- recommendation
+Create a `Renewal Readiness Brief` covering current award status, performance evidence, budget status, reporting status, funder feedback facts, renewal requirements, program changes, evidence gaps, organizational facts to refresh, decision timeline, and recommendation.
 
 # 16. Closeout
 
@@ -464,9 +388,8 @@ Do not invent a universal closeout deadline or retention period. Use the award a
 
 When reviewing multiple grants, produce an answer-first portfolio view.
 
-Recommended sections:
+Include:
 
-## Executive view
 - opportunities requiring decisions
 - applications at risk
 - awards with upcoming obligations
@@ -475,7 +398,7 @@ Recommended sections:
 - amendment decisions
 - renewals / closeouts
 
-## Portfolio table
+Use a portfolio table:
 
 `grant | funder | stage | amount if sourced | next milestone | owner | health | key risk | decision needed`
 
@@ -490,48 +413,17 @@ Do not create a health rating from guesswork.
 
 # 18. Operating cadence
 
-Use a cadence when the user wants recurring grant management.
-
 ## Weekly grant operations review
 
-Focus on:
-
-- deadlines in the next 30 days
-- tasks due this week
-- blocked evidence / attachments
-- decisions waiting on leadership
-- funder questions
-- applications at risk
-- reports / award obligations due
-- changes requiring approval
+Focus on deadlines in the next 30 days, tasks due this week, blocked evidence / attachments, leadership decisions, funder questions, applications at risk, reports / award obligations due, and changes requiring approval.
 
 ## Monthly portfolio review
 
-Focus on:
-
-- pipeline movement
-- pursue / hold / decline decisions
-- application capacity
-- award implementation status
-- reporting and compliance calendar
-- budget / program exceptions
-- upcoming renewals
-- closeouts
-- systemic process problems
+Focus on pipeline movement, pursue / hold / decline decisions, application capacity, award implementation status, reporting calendar, budget / program exceptions, renewals, closeouts, and systemic process problems.
 
 ## Quarterly leadership review
 
-Focus on:
-
-- funding pipeline
-- awarded funding and concentration
-- program / mission alignment
-- delivery performance evidence
-- recurring reporting burdens
-- major risks
-- capacity constraints
-- renewal strategy
-- operating improvements
+Focus on funding pipeline, awarded funding and concentration, program / mission alignment, delivery performance evidence, recurring reporting burdens, major risks, capacity constraints, renewal strategy, and operating improvements.
 
 # 19. Exceptions and escalation
 
@@ -554,15 +446,7 @@ Escalate when:
 
 # 20. Authority boundary
 
-The skill may:
-
-- read and organize user-provided or connected information
-- analyze opportunities
-- compare requirements and evidence
-- draft narratives and communications
-- build plans, matrices, registers, calendars, reviews, and recommendations
-- identify gaps, exceptions, and decisions
-- prepare materials for human approval
+The skill may read and organize user-provided or connected information, analyze opportunities, compare requirements and evidence, draft narratives and communications, build plans and registers, identify gaps and exceptions, and prepare recommendations for human approval.
 
 Explicit human authorization is required to:
 
