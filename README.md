@@ -77,6 +77,10 @@ When an organization later needs the workflow adapted to its own systems, polici
 
 More at [revuitysystems.com](https://revuitysystems.com). Questions or security concerns: info@revuitysystems.com.
 
+## Privacy
+
+This plugin does not collect or store data itself. Revuity's privacy policy is at [revuitysystems.com/privacy](https://revuitysystems.com/privacy).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

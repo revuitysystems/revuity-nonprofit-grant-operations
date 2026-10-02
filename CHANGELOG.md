@@ -3,8 +3,9 @@
 ## Unreleased
 
 - Added `SUBMISSION_READINESS.md` recording validation, runtime load, and invocation results. No change to plugin behavior.
+- Added a privacy policy link to the manifest and README.
 - Added `displayName` to the manifest and `SUBMISSION.md` for the directory submission. Switched the README icon to Markdown image syntax. No change to plugin behavior.
-- Added plugin icon assets (`assets/icon.png` and 512, 256, 128 pixel versions), an `icon` manifest field for the Anthropic directory listing, and a README icon section. No change to plugin behavior.
+- Added the plugin icon files, an icon field in the manifest for the Anthropic directory listing, and a README icon section. No change to plugin behavior.
 
 ## 1.0.0 — Initial public release
 
