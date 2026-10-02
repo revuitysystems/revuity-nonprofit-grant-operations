@@ -50,7 +50,7 @@ Intended for adult professionals using the workflow at work. Not intended for us
 - Structural validation (scripts/validate.py): PASS in GitHub Actions
 - claude plugin validate --strict: PASS locally and in GitHub Actions
 - Runtime load with claude --plugin-dir: PASS (plugin recognized at 1.0.0, skill nonprofit-grant-operations:grant-operations registered, no plugin errors, no plugin-provided MCP servers, absent when started without the flag)
-- Representative skill invocation: NOT RUN. The local Claude CLI session was unauthenticated when this file was written. See SUBMISSION_READINESS.md once the invocation test has been completed.
+- Representative skill invocation: PASS (fictional-data prompt plus one adversarial boundary prompt; details in SUBMISSION_READINESS.md)
 
 ## Submission notes
 
