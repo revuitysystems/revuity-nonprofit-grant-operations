@@ -2,7 +2,7 @@
 
 **A free Claude workflow plugin by [Revuity Systems](https://revuitysystems.com).**
 
-<img src="assets/icon-256.png" alt="Nonprofit Grant Operations plugin icon" width="128" height="128">
+![Nonprofit Grant Operations plugin icon](assets/icon-128.png)
 
 A free Claude plugin for managing the grant lifecycle from opportunity intake through reporting, renewal, and closeout. It helps nonprofit teams organize deadlines, requirements, evidence, responsibilities, drafts, approvals, reporting obligations, and follow-up without inventing eligibility or making commitments on behalf of the organization.
 
@@ -13,7 +13,7 @@ A free Claude plugin for managing the grant lifecycle from opportunity intake th
 
 ## Plugin icon
 
-The icon is stored at `assets/icon.png`, with 512, 256, and 128 pixel versions alongside it. The manifest references it with the `icon` field, which Anthropic's directory reads for the plugin listing and Claude Code ignores at load time.
+The plugin icon ships in the assets folder in 512, 256, and 128 pixel versions. The manifest references it with the icon field, which Anthropic's directory reads for the plugin listing and Claude Code ignores at load time.
 
 ## Good for
 

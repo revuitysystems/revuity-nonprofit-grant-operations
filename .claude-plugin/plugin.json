@@ -1,5 +1,6 @@
 {
   "name": "nonprofit-grant-operations",
+  "displayName": "Nonprofit Grant Operations",
   "version": "1.0.0",
   "description": "Grant operations workflow support for opportunity review, application readiness, calendars, document collection, reporting, compliance follow-up, and renewal planning.",
   "author": {
