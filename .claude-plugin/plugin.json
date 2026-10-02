@@ -19,6 +19,5 @@
     "revuity"
   ],
   "repository": "https://github.com/revuitysystems/revuity-nonprofit-grant-operations",
-  "icon": "./assets/icon.png",
-  "privacyPolicyUrl": "https://revuitysystems.com/privacy"
+  "icon": "./assets/icon.png"
 }
