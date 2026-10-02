@@ -43,10 +43,12 @@ PASS
 - Homepage: https://revuitysystems.com
 - Contact: info@revuitysystems.com
 - License: MIT
-- Icon: assets/icon.png (referenced in the manifest as ./assets/icon.png)
+- Icon: included in the repository and referenced by the manifest icon field
+- Privacy policy: https://revuitysystems.com/privacy
 
 ## Open Issues
 
+- The portal holds the version for policy review because the manifest icon field names an image file. Nothing in the plugin runs the file, so no code change is needed. The reviewer's decision appears on the plugin's page.
 - The directory's own Validate step in the developer portal has not been run. Its additional checks (name availability, README and license rules, security scan) can only be run from the portal by an authorized claude.ai account.
 - The plugin name is built from generic words. The directory may hold it for reviewer confirmation under its name rules. This is a hold, not a block.
 - The runtime tests were single-session checks on one machine and one model, not a broad evaluation.

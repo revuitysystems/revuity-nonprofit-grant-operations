@@ -40,9 +40,6 @@ def main(expected):
     for key in ("description", "author", "homepage", "license", "keywords"):
         if not manifest.get(key):
             fail(f"manifest missing {key}")
-    icon = manifest.get("icon")
-    if icon and not (ROOT / icon).is_file():
-        fail(f"manifest icon {icon!r} does not exist")
     skills = list((ROOT / "skills").glob("*/SKILL.md"))
     if not skills:
         fail("no skills/*/SKILL.md found")

@@ -19,7 +19,8 @@ Prepared for Revuity's submission to the Claude plugin directory. This file does
 - Homepage: https://revuitysystems.com
 - Contact: info@revuitysystems.com
 - License: MIT
-- Icon: assets/icon.png (512, 256 and 128 pixel versions alongside)
+- Icon: included in the repository and referenced by the manifest icon field
+- Privacy policy: https://revuitysystems.com/privacy
 
 ## Data handling
 
