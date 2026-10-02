@@ -1,11 +1,23 @@
 # Changelog
 
+## 1.1.0 — Expanded grant operations system
+
+- Expanded the grant lifecycle from a compact application-and-reporting workflow into a full nonprofit grant operations system covering discovery, intake, qualification, decision support, application planning, evidence collection, narrative development, submission control, award setup, implementation monitoring, reporting, change control, renewal, closeout, and portfolio review.
+- Added grant pipeline management and Grant Qualification Briefs for go / hold / no-go decision support.
+- Added backward application plans, requirements and evidence matrices, reusable organizational evidence-bank guidance, and evidence-to-claim controls.
+- Added stronger budget / narrative consistency reviews and structured submission-readiness gates.
+- Added Award Acceptance Briefs, Award Kickoff Packs, Obligations Registers, implementation monitoring, reporting workbenches, and funder communication preparation.
+- Added Grant Change Records for amendments, extensions, budget revisions, and other material changes.
+- Added Renewal Readiness Briefs and controlled closeout planning.
+- Added weekly, monthly, and quarterly grant operating cadences for teams and leadership.
+- Added `references/GRANT_OPS_TEMPLATES.md` with reusable operating artifacts for the full lifecycle.
+- Strengthened exception handling, source discipline, evidence controls, sensitive-data minimization, and human authority boundaries.
+- Updated the README and listing description to reflect the broader operating system.
+- Bumped plugin version to 1.1.0.
+
 ## Unreleased
 
-- Added `SUBMISSION_READINESS.md` recording validation, runtime load, and invocation results. No change to plugin behavior.
-- Added a privacy policy link to the manifest and README.
-- Added `displayName` to the manifest and `SUBMISSION.md` for the directory submission. Switched the README icon to Markdown image syntax. No change to plugin behavior.
-- Added the plugin icon files, an icon field in the manifest for the Anthropic directory listing, and a README icon section. No change to plugin behavior.
+- None.
 
 ## 1.0.0 — Initial public release
 
@@ -17,4 +29,4 @@
 
 ### Verification
 
-Package validation runs in GitHub Actions. This release has not been installed or exercised in a user's Claude runtime by its authors; smoke-test the plugin in your own Claude environment after installing it.
+Package validation runs in GitHub Actions. Runtime behavior should be smoke-tested after material skill changes and before directory submission.

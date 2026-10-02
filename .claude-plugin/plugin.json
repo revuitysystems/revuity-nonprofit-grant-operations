@@ -1,8 +1,8 @@
 {
   "name": "nonprofit-grant-operations",
   "displayName": "Nonprofit Grant Operations",
-  "version": "1.0.0",
-  "description": "Grant operations workflow support for opportunity review, application readiness, calendars, document collection, reporting, compliance follow-up, and renewal planning.",
+  "version": "1.1.0",
+  "description": "A nonprofit grant operations system for managing the full lifecycle from opportunity intake and qualification through applications, awards, reporting, renewals, and closeout.",
   "author": {
     "name": "Revuity Systems",
     "email": "info@revuitysystems.com",
@@ -14,8 +14,10 @@
   "keywords": [
     "nonprofit",
     "grants",
+    "grant-management",
     "fundraising",
     "operations",
+    "workflow",
     "revuity"
   ],
   "repository": "https://github.com/revuitysystems/revuity-nonprofit-grant-operations",

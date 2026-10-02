@@ -4,53 +4,173 @@
 
 ![Nonprofit Grant Operations plugin icon](assets/icon-128.png)
 
-A free Claude plugin for managing the grant lifecycle from opportunity intake through reporting, renewal, and closeout. It helps nonprofit teams organize deadlines, requirements, evidence, responsibilities, drafts, approvals, reporting obligations, and follow-up without inventing eligibility or making commitments on behalf of the organization.
+A nonprofit grant operations system for managing the full lifecycle from opportunity intake through application development, award setup, implementation, reporting, renewal, and closeout.
+
+It is designed for nonprofit leaders, grant managers, development teams, program staff, finance staff, and operations teams that need grant work to be visible, owned, evidence-backed, and ready for human decision.
 
 - Plugin name: `nonprofit-grant-operations`
 - Skill: `/nonprofit-grant-operations:grant-operations`
-- Version: 1.0.0
+- Version: 1.1.0
 - License: MIT
 
-## Plugin icon
+## What it helps run
 
-The plugin icon ships in the assets folder in 512, 256, and 128 pixel versions. The manifest references it with the icon field, which Anthropic's directory reads for the plugin listing and Claude Code ignores at load time.
+### Pipeline and qualification
 
-## Good for
+- Grant opportunity intake
+- Grant pipeline reviews
+- Eligibility and readiness checks
+- Go / hold / no-go decision briefs
+- Mission, program, geography, capacity, and burden review
 
-- Opportunity triage
-- Eligibility and readiness review
-- Application planning
-- Document collection
-- Submission-readiness checks
+### Application operations
+
+- Backward application plans
+- Requirements and evidence matrices
+- Organizational evidence libraries
+- Narrative planning and drafting
+- Evidence-to-claim checks
+- Budget / narrative consistency reviews
+- Attachment and partner-input tracking
+- Submission-readiness gates
+
+### Award operations
+
+- Award acceptance briefs
+- Award-term review
+- Award kickoff packs
+- Obligations registers
 - Reporting calendars
-- Funder follow-up preparation
-- Renewal planning
-- Grant portfolio reviews
+- Evidence collection plans
+- Budget / delivery monitoring
+- Risk and exception tracking
+
+### Reporting and change control
+
+- Reporting workbenches
+- Metric and evidence verification
+- Financial / narrative reconciliation
+- Funder communication drafts
+- Amendment and change records
+- Extension and budget-revision preparation
+
+### Renewal and closeout
+
+- Renewal readiness briefs
+- Continuation planning
+- Closeout plans
+- Final reporting coordination
+- Records-retention requirement tracking from authoritative sources
+
+### Operating rhythm
+
+- Weekly grant operations reviews
+- Monthly portfolio reviews
+- Quarterly leadership briefs
+- Decision, risk, and exception tracking across the grant portfolio
 
 ## How it works
 
-The plugin treats grant work as a lifecycle: opportunity, qualify, plan, collect, draft, review, submit, deliver, report, and renew or close. Funder guidelines, notices, award terms, approved budgets, and organizational records are treated as the sources of truth. It separates source facts from assumptions, flags unsupported claims and outcome figures for verification, and compares budgets and narratives only against approved sources.
+The plugin treats grant work as an operating lifecycle:
+
+`discover -> intake -> qualify -> decide -> plan -> collect -> draft -> review -> submit -> award setup -> deliver -> monitor -> report -> amend if needed -> renew/close`
+
+Funder guidelines, notices, award documents, approved organizational records, approved program facts, approved budgets, and connected systems are treated as sources of truth.
+
+The plugin separates facts, assumptions, open questions, recommendations, and decisions. It is designed to stop unsupported claims from quietly becoming grant facts.
 
 ## Example requests
 
 Once the plugin is loaded, ask in plain language or invoke the skill directly with `/nonprofit-grant-operations:grant-operations`.
 
-- "Triage this funding opportunity against our program facts and list the eligibility questions that are still unanswered."
-- "Build a requirements matrix for this application with owner, status, gap, and deadline for each item."
-- "Create an obligations and reporting calendar from this award agreement."
-- "Give me a grant portfolio review for the leadership meeting."
+### Opportunity and pipeline
 
-You supply the information, either by pasting it in or through tools you have already connected to Claude. The plugin does not collect data of its own, does not call any Revuity service, and has no executable code.
+- "Build a grant pipeline from these opportunities and show me which ones need a decision this month."
+- "Create a go/no-go brief for this opportunity using only the eligibility and program facts we can support."
+- "Compare these three opportunities by fit, burden, timing, and evidence gaps."
+
+### Application development
+
+- "Turn this funding notice into a requirements and evidence matrix."
+- "Build a backward application plan with owners, dependencies, review gates, and risks."
+- "Draft this narrative section from our approved program facts and flag every unsupported claim."
+- "Compare the budget, budget narrative, staffing plan, and program narrative for inconsistencies."
+- "Run a submission-readiness review and tell me exactly what is blocked."
+
+### Award management
+
+- "Turn this award agreement into an award acceptance brief and obligations register."
+- "Build an award kickoff pack for program, finance, and leadership."
+- "Create our reporting calendar and evidence collection plan from these award terms."
+- "Give me a weekly grant operations review with deadlines, blocked work, decisions, and risks."
+
+### Reporting and changes
+
+- "Build a reporting workbench for this quarterly report and identify the evidence we still need."
+- "Draft an amendment request based on this program change, but do not assume funder approval is not required."
+- "Compare our performance evidence against the claims in this report before leadership approves it."
+
+### Renewal and closeout
+
+- "Create a renewal readiness brief using this award's actual performance and current funder guidance."
+- "Build a closeout plan from the award terms and show what is still unresolved."
+- "Give leadership a portfolio review across all active grants, applications, reports, renewals, and closeouts."
+
+## Reusable operating templates
+
+The plugin includes reusable structures in `references/GRANT_OPS_TEMPLATES.md`, including:
+
+- Grant Pipeline
+- Grant Qualification Brief
+- Requirements and Evidence Matrix
+- Application Operating Plan
+- Evidence-to-Claim Map
+- Budget Consistency Review
+- Submission Readiness Gate
+- Award Acceptance Brief
+- Obligations Register
+- Award Kickoff Pack
+- Reporting Workbench
+- Grant Change Record
+- Renewal Readiness Brief
+- Closeout Plan
+- Weekly Grant Operations Review
+- Monthly Portfolio Review
+- Leadership Brief
+
+These are designed as operating artifacts, not decorative templates. Claude should adapt them to the evidence and task at hand rather than filling unknown fields with guesses.
 
 ## Authority and safety boundaries
 
-The plugin analyzes, organizes, drafts, compares, and prepares. It never infers eligibility, match requirements, deadlines, allowable costs, certifications, or reporting obligations when the source is unclear. Explicit human authorization is required to submit an application or report, certify compliance, accept terms, sign representations, alter approved budgets, commit match funds, communicate material commitments to funders, or change bank or payment information.
+The plugin may analyze, organize, compare, draft, plan, identify gaps, prepare materials, and recommend next actions.
 
-When something is missing, stale, or in conflict, the plugin is written to stop and say so rather than guess.
+It does **not** independently determine or invent:
+
+- eligibility
+- deadlines or time zones
+- match or cost-share requirements
+- allowable costs
+- indirect-cost treatment
+- certifications
+- award terms
+- reporting obligations
+- renewal conditions
+- program outcomes
+- demographic claims
+- partner commitments
+- compliance status
+
+Explicit human authorization is required to submit an application or report, certify compliance or accuracy, accept award terms, sign representations, alter approved budgets, commit match funds, enter binding commitments, make material funder commitments, or change bank or payment information.
+
+Legal, regulatory, tax, audit, accounting, procurement, and employment determinations remain with qualified humans.
+
+When something is missing, stale, unsupported, or in conflict, the plugin is written to surface the exception rather than guess.
 
 ## Data handling
 
-Share only the organizational and program information a task needs. Avoid pasting passwords, bank details, or donor and beneficiary data that the task does not require. Your own privacy and records obligations still apply to anything you share with Claude.
+Share only the organizational and program information a task needs. Avoid pasting passwords, bank credentials, or donor and beneficiary data that the task does not require.
+
+The plugin itself does not collect data, store data, send data to Revuity, or operate an external service. It relies only on the information you provide and the tools or connectors you have already enabled in your own Claude environment.
 
 ## Install
 
@@ -63,11 +183,17 @@ git clone https://github.com/revuitysystems/revuity-nonprofit-grant-operations.g
 claude --plugin-dir ./revuity-nonprofit-grant-operations
 ```
 
-Then run `/reload-plugins` and confirm `/nonprofit-grant-operations:grant-operations` appears. To check the package without running it, use `claude plugin validate ./revuity-nonprofit-grant-operations`.
+Then confirm `/nonprofit-grant-operations:grant-operations` appears. To check the package without running it, use:
+
+```bash
+claude plugin validate ./revuity-nonprofit-grant-operations --strict
+```
 
 ## Validation
 
-A GitHub Actions workflow in this repository checks the manifest, semantic version, skill frontmatter, and required documentation on every push and pull request. See `.github/workflows/validate.yml`. Passing validation shows the package is well formed. It does not replace testing the plugin in your own Claude environment against your own policies.
+A GitHub Actions workflow in this repository checks the manifest, semantic version, skill frontmatter, and required documentation on every push and pull request.
+
+Passing structural validation means the package is well formed. Runtime behavior should also be smoke-tested after material skill changes and before directory submission.
 
 ## Built by Revuity Systems
 
