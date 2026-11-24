@@ -17,7 +17,9 @@
 
 ## Unreleased
 
-- None.
+- Added `pending decision` and `award offer` to the lifecycle line so it matches the award review and acceptance section.
+- Aligned the pipeline decision values with the Grant Qualification Brief recommendation values (`pursue | hold pending verification | do not pursue`), plus `not yet decided`.
+- Aligned two field lists in the skill with the templates (`input / source`, `approval needed`, `due / frequency`).
 
 ## 1.0.0 — Initial public release
 

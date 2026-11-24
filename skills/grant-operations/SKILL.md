@@ -9,7 +9,7 @@ Run grants as an operating system, not a loose collection of deadlines.
 
 Use the lifecycle:
 
-`discover -> intake -> qualify -> decide -> plan -> collect -> draft -> review -> submit -> award setup -> deliver -> monitor -> report -> amend if needed -> renew/close`
+`discover -> intake -> qualify -> decide -> plan -> collect -> draft -> review -> submit -> pending decision -> award offer -> award setup -> deliver -> monitor -> report -> amend if needed -> renew/close`
 
 The objective is to make grant work visible, owned, evidence-backed, reviewable, and ready for human decision at the right points.
 
@@ -65,7 +65,7 @@ Track, when available:
 - estimated internal effort
 - required partners or attachments
 - open eligibility questions
-- go / hold / no-go decision status
+- decision status: `not yet decided | pursue | hold pending verification | do not pursue`
 - next action
 - next review date
 
@@ -134,7 +134,7 @@ Build:
 
 For each task show:
 
-`deliverable | owner | source/input | due date | dependency | status | reviewer | approval required | risk`
+`deliverable | owner | input / source | due date | dependency | status | reviewer | approval needed | risk`
 
 Do not invent dates when the external deadline is unknown. Use relative sequencing until a sourced deadline is available.
 
@@ -283,7 +283,7 @@ Create an `Award Kickoff Pack` with:
 
 Use an `Obligations Register`:
 
-`obligation | source | owner | frequency/date | evidence required | reviewer | status | escalation trigger`
+`obligation | source | owner | due / frequency | evidence required | reviewer | status | escalation trigger`
 
 # 11. Delivery and performance monitoring
 
