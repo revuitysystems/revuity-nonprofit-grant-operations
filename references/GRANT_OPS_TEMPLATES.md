@@ -7,6 +7,8 @@ Use these structures when a reusable operating artifact is more useful than pros
 | Opportunity | Funder | Stage | Deadline | Amount | Owner | Next action | Decision | Risk |
 |---|---|---|---|---|---|---|---|---|
 
+Decision values: `not yet decided`, `pursue`, `hold pending verification`, `do not pursue`. These match the recommendation in the Grant Qualification Brief.
+
 ## 2. Grant Qualification Brief
 
 ### Opportunity
